@@ -13,10 +13,17 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
+import 'bootstrap/dist/css/bootstrap.css'
+import './global.css'
 import Badges from './components/badges'
 
 
 
 const container = document.getElementById('root');
 
-ReactDOM.render(<Badges />, container);
+ReactDOM.render(<Badges 
+    firstName="Brandon" 
+    lastName="Beltran" 
+    jobTitle="Web Developer"
+
+/>, container);
