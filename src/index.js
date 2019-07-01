@@ -15,15 +15,15 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import 'bootstrap/dist/css/bootstrap.css'
 import './global.css'
-import Badges from './components/badges'
+import BadgeNew from './components/pages/BadgeNew';
+// import Badges from './components/badges'
 
 
 
 const container = document.getElementById('root');
 
-ReactDOM.render(<Badges 
-    firstName="Brandon" 
-    lastName="Beltran" 
-    jobTitle="Web Developer"
-
+ReactDOM.render(<BadgeNew 
+    // firstName="Brandon" 
+    // lastName="Beltran" 
+    // jobTitle="Web Developer"
 />, container);
